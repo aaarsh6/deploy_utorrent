@@ -1,0 +1,10 @@
+DEPENDENCIES
+  utorrent-server
+    path: site-cookbooks/utorrent-server
+  utorrent-web
+    path: .
+    metadata: true
+
+GRAPH
+  utorrent-server (0.1.0)
+  utorrent-web (0.1.0)
